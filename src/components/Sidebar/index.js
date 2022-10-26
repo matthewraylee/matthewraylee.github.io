@@ -7,10 +7,10 @@ import {
   SidebarMenu,
   SidebarLink,
   SideBtnWrap,
-  SidebarRoute
+  SidebarRoute,
 } from "./SidebarElements";
 
-const Sidebar = ({isOpen, toggle}) => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -18,15 +18,65 @@ const Sidebar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="home" onClick={toggle}>Home</SidebarLink>
-          <SidebarLink to="about" onClick={toggle}>about</SidebarLink>
-          <SidebarLink to="resume" onClick={toggle}>Resume</SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
-          <SidebarLink to="Contact" onClick={toggle}>Contact</SidebarLink>
+          <SidebarLink
+            to="home"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Home
+          </SidebarLink>
+          <SidebarLink
+            to="about"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            about
+          </SidebarLink>
+          <SidebarLink
+            to="resume"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Resume
+          </SidebarLink>
+          <SidebarLink
+            to="projects"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Projects
+          </SidebarLink>
+          <SidebarLink
+            to="contact"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Contact
+          </SidebarLink>
         </SidebarMenu>
         {/* 57 min for other page */}
         <SideBtnWrap>
-            <SidebarRoute to="/signin">Sign in</SidebarRoute>
+          <SidebarRoute to="/signin">Sign in</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

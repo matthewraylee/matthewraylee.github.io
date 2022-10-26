@@ -21,15 +21,15 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id='home'>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi, I'm Matt!</HeroH1>
         <HeroP>An Aspiring Software Engineer.</HeroP>
-        <HeroP>Scroll Down!</HeroP>
-        <HeroBtnWrapper>
+        <HeroP>Arrow down</HeroP>
+        {/* <HeroBtnWrapper>
           <Button
             to="signup"
             onMouseEnter={onHover}
@@ -39,7 +39,7 @@ const HeroSection = () => {
           >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
-        </HeroBtnWrapper>
+        </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   );

@@ -3,10 +3,13 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
+import ResumeSection from "../components/ResumeSection";
+import ProjectsCard from "../components/ProjectsCard";
+import Footer from "../components/Footer";
 import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree,
+  about,
+  resume,
+  contact,
 } from "../components/InfoSection/Data";
 
 const Home = () => {
@@ -21,9 +24,12 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...about} />
+      <ResumeSection />
+      {/* <InfoSection {...resume} /> */}
+      <ProjectsCard />
+      <InfoSection {...contact} />
+      <Footer />
     </>
   );
 };
