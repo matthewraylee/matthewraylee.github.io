@@ -10,7 +10,7 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight,
+  ArrowRight
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -23,12 +23,12 @@ const HeroSection = () => {
   return (
     <HeroContainer id='home'>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted playsinline src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi, I'm Matt!</HeroH1>
         <HeroP>An Aspiring Software Engineer.</HeroP>
-        <HeroP>Arrow down</HeroP>
+  
         {/* <HeroBtnWrapper>
           <Button
             to="signup"

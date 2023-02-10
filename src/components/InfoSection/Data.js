@@ -29,9 +29,9 @@ export const about = {
 
 export const contact = {
   id: "contact",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Software Engineer",
   headline: "Seeking Full-time Job By 2023",
   description: "Graduating May 2023",
@@ -39,7 +39,7 @@ export const contact = {
   imgStart: true,
   img: require("../../images/golf.svg"),
   alt: "Golf",
-  dark: true,
+  dark: false,
   primary: true,
-  darkText: false,
+  darkText: true,
 };

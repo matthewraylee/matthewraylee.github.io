@@ -5,6 +5,7 @@ import {
   FaFacebook,
   FaTwitter,
   FaYoutube,
+  FaGithub,
 } from "react-icons/fa";
 import {
   FooterContainer,
@@ -29,38 +30,8 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
-              <FooterLink to="/signin">How it works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Careers</FooterLink>
-              <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              {/* <FooterLinkTitle>Contact me!</FooterLinkTitle>
+              <FooterLink to="/">Coming soon!</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -69,22 +40,15 @@ const Footer = () => {
             <SocialLogo to="/">Matt</SocialLogo>
             <WebsiteRights>
               Matt © {new Date().getFullYear()}
-              All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
+              <SocialIconLink href="https://www.github.com/matthewraylee/" target="_blank" aria-label="Github">
+                <FaGithub />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="YouTube">
-                <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+              <SocialIconLink href="https://www.linkedin.com/in/matthewraylee/" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
