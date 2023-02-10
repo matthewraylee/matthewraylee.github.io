@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Video from "../../videos/video.mp4";
 import { Button } from "../ButtonElements";
 import {
@@ -12,6 +12,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
+import { Typewriter } from "react-simple-typewriter";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -28,7 +29,7 @@ const HeroSection = () => {
           loop
           muted
           defaultMuted
-          playsinline
+          playsinline="true"
           oncontextmenu="return false;"
           preload="auto"
           src={Video}
@@ -37,7 +38,15 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi, I'm Matt!</HeroH1>
-        <HeroP>An Aspiring Software Engineer.</HeroP>
+        
+        <HeroP>
+          <Typewriter 
+            words={["An Aspiring Software Engineer."]}
+            cursor
+            typeSpeed={140}
+            delaySpeed={1700}
+          />
+        </HeroP>
 
         {/* <HeroBtnWrapper>
           <Button

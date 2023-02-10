@@ -42,9 +42,6 @@ const Footer = () => {
               Matt © {new Date().getFullYear()}
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook">
-                <FaFacebook />
-              </SocialIconLink>
               <SocialIconLink href="https://www.github.com/matthewraylee/" target="_blank" aria-label="Github">
                 <FaGithub />
               </SocialIconLink>
