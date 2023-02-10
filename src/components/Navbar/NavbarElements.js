@@ -3,7 +3,7 @@ import { Link as LinkRouter } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({scrollNav}) => (scrollNav ? '#f0f0f0' : 'transparent')};
+  background: ${({ scrollNav }) => (scrollNav ? "#f0f0f0" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -43,8 +43,11 @@ export const NavLogo = styled(LinkRouter)`
   max-width: 100px;
 `;
 
-// here
 export const LogoImg = styled.img`
+  filter: ${({ scrollNav }) =>
+    scrollNav
+      ? "invert(0%);"
+      : "invert(99%) sepia(4%) saturate(663%) hue-rotate(215deg) brightness(114%) contrast(88%);"};
   width: 90%;
   padding-right: 0;
   margin-top: 10px;
@@ -61,7 +64,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: black;
+    color: ${({ scrollNav }) => (scrollNav ? "black" : "white")};
   }
 `;
 
@@ -79,12 +82,11 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  // color: ${({scrollNav}) => (scrollNav ? 'black' : 'white')};
   height: 80px;
 `;
 
 export const NavLinks = styled(LinkScroll)`
-  color: black;
+  color: ${({ scrollNav }) => (scrollNav ? "black" : "white")};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -93,6 +95,6 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #F6AE2D;
+    border-bottom: 3px solid #f6ae2d;
   }
 `;
