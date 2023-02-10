@@ -53,6 +53,10 @@ export const ResumeMenu = styled.div`
   width: 50%;
   justify-content: space-around;
   //   border: solid 1px red;
+
+  @media screen and (max-width: 480px) {
+    gap: 15px
+  }
 `;
 
 export const ResumeItem = styled.button`
@@ -61,7 +65,7 @@ export const ResumeItem = styled.button`
   white-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
   color: ${({ dark }) => (dark ? "#010606" : "white")};
-  font-size: ${({ fontBig }) => (fontBig ? "20px" : "16px")};
+  font-size: ${({ fontBig }) => (fontBig ? "20px" : "13px")};
   outline: none;
   border: none;
   cursor: pointer;
@@ -74,6 +78,11 @@ export const ResumeItem = styled.button`
     transition: all 0.2s ease-in-out;
     background: ${({ primary }) => (primary ? "white" : "#F6AE2D")};
   }
+
+  // @media screen and (max-width: 480px) {
+  //   // padding: 10px 12px;
+  //   // font-size: 16px;
+  // }
 `;
 
 export const ResumeContent = styled.div`

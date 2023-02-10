@@ -74,9 +74,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             Contact
           </SidebarLink>
         </SidebarMenu>
-        {/* 57 min for other page */}
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign in</SidebarRoute>
+          <SidebarRoute to="/">Hire Me!</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

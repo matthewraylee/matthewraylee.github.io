@@ -89,6 +89,10 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "white")};
   white-space: pre-line;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 
 export const BtnWrap = styled.div`
