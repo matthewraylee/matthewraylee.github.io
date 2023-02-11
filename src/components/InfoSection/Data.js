@@ -6,7 +6,7 @@ export const about = {
   topLine: "Aspiring Software Engineer",
   headline: "Matthew Ray Lee",
   description:
-    "I am born in Jakarta, Indonesia and have been studying computer \
+    "I was born in Jakarta, Indonesia and have been studying computer \
     science at the University of Maryland, College Park. I want to be a \
     software developer because it allows me to express my creativity and \
     challenge myself with problem-solving skills to do meaningful work. \n\

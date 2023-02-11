@@ -102,6 +102,34 @@ export const ElementList = styled.ul`
 
 export const ElementListItem = styled.li``;
 
+export const ElementSkills = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  // width: 40%;
+  margin-top: 10px
+`;
+
+// export const ElementSkillsIcon = styled.a`
+//   color: white;
+//   font-size: 24px;
+
+//   &:hover {
+//     color: #f6ae2d;
+//     transition: 0.3s ease-out;
+// `;
+
+export const ElementSkillsLogo = styled.img`
+  width: 35px;
+  margin-right: 25px;
+`;
+
+export const ElementHeaderWrapper = styled.div`
+  display: flex:
+  justify-content: space-between;
+  flex-direction: row;
+`;
+
 export const ElementTitle = styled.h3`
   font-size: 1.5rem;
   padding-bottom: 5px;

@@ -14,6 +14,9 @@ import {
   ElementP,
   ElementList,
   ElementListItem,
+  ElementSkills,
+  ElementSkillsLogo,
+  ElementHeaderWrapper,
   Link,
 } from "./ResumeElements";
 import { FaGraduationCap } from "react-icons/fa";
@@ -23,7 +26,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-
 const ResumeSection = ({ toggle }) => {
   const [showEducation, setShowEducation] = useState(true);
 
@@ -71,7 +73,7 @@ const ResumeSection = ({ toggle }) => {
                     icon={<FaGraduationCap />}
                   >
                     <ElementTitle className="vertical-timeline-element-title">
-                    <Link href="http://www.greenriver.edu" target="_blank">
+                      <Link href="http://www.greenriver.edu" target="_blank">
                         Green River College
                       </Link>
                     </ElementTitle>
@@ -93,32 +95,44 @@ const ResumeSection = ({ toggle }) => {
                     iconStyle={{ background: "#F6AE2D", color: "white" }}
                     icon={<MdWork />}
                   >
-                    <ElementTitle className="vertical-timeline-element-title">
-                      <Link
-                        href="https://www.amtrak.com/home.html"
-                        target="_blank"
-                      >
-                        Amtrak
-                      </Link>
-                    </ElementTitle>
-                    <ElementSubtitle className="vertical-timeline-element-subtitle">
-                      Washington, DC
-                    </ElementSubtitle>
+                    <ElementHeaderWrapper>
+                      <ElementTitle className="vertical-timeline-element-title">
+                        <Link
+                          href="https://www.amtrak.com/home.html"
+                          target="_blank"
+                        >
+                          Amtrak
+                        </Link>
+                      </ElementTitle>
+                      <ElementSubtitle className="vertical-timeline-element-subtitle">
+                        Washington, DC
+                      </ElementSubtitle>
+                    </ElementHeaderWrapper>
+
                     <ElementP>
                       <ElementList>
                         <ElementListItem>
                           Maintained and updated several APIs responsible for
-                          the operation of rail transportation across the US and
-                          three provinces of Canada.
-                        </ElementListItem>
-                        <ElementListItem>
-                          Managed lists of APIs on Cloudhub, Anypoint Platform,
-                          BitBucket, Jenkins, and Postman.
+                          the operation of rail transportation
                         </ElementListItem>
                         <ElementListItem>
                           Proactively attended and presented at weekly API
-                          meetings with the team.
+                          meetings with the team
                         </ElementListItem>
+                        <ElementSkills>
+                          <ElementSkillsLogo
+                            src={require("../../images/jenkins.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/mulesoft.avif")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/bitbucket.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/postman.svg")}
+                          />
+                        </ElementSkills>
                       </ElementList>
                     </ElementP>
                   </VerticalTimelineElement>
@@ -137,22 +151,19 @@ const ResumeSection = ({ toggle }) => {
                       </Link>
                     </ElementTitle>
                     <ElementSubtitle className="vertical-timeline-element-subtitle">
-                      Washington, DC
+                      Auburn, WA
                     </ElementSubtitle>
                     <ElementP>
                       <ElementList>
                         <ElementListItem>
-                          Guided ten students with disabilities per week to
-                          create a study schedule that fits with their learning
-                          style.
+                          Guided ten students with disabilities weekly
                         </ElementListItem>
                         <ElementListItem>
                           Explored and introduced different study methods for
-                          students to try that matched their learning needs.
+                          students
                         </ElementListItem>
                         <ElementListItem>
                           Received a certificate in weekly tutor training
-                          alongside supervisor and peers.
                         </ElementListItem>
                         <ElementListItem>
                           Tutor Subjects: Computer Science (Java, Python, C++),
@@ -169,7 +180,7 @@ const ResumeSection = ({ toggle }) => {
                   >
                     <ElementTitle className="vertical-timeline-element-title">
                       <Link href="https://www.enseval.com/" target="_blank">
-                        Pt. Enseval Putera Megatrading
+                        PT. Enseval Putera Megatrading
                       </Link>
                     </ElementTitle>
                     <ElementSubtitle className="vertical-timeline-element-subtitle">
@@ -178,19 +189,26 @@ const ResumeSection = ({ toggle }) => {
                     <ElementP>
                       <ElementList>
                         <ElementListItem>
-                          Created new user confirmation via email link
-                          verification for customers of Indonesia’s largest
-                          pharmaceutical and raw materials distributor.
+                          Created new customer verification via email
                         </ElementListItem>
                         <ElementListItem>
-                          Worked alongside several mentors with website hosting
-                          and server management using C#, Postman, and
-                          Javascript (Node.js).
+                          Worked alongside mentors with website hosting and
+                          server management
                         </ElementListItem>
-                        <ElementListItem>
-                          Explored different IDEs and API development
-                          applications.
-                        </ElementListItem>
+                        <ElementSkills>
+                          <ElementSkillsLogo
+                            src={require("../../images/csharp.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/postman.svg")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/nodejs.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/react.png")}
+                          />
+                        </ElementSkills>
                       </ElementList>
                     </ElementP>
                   </VerticalTimelineElement>
@@ -202,7 +220,7 @@ const ResumeSection = ({ toggle }) => {
                   >
                     <ElementTitle className="vertical-timeline-element-title">
                       <Link href="https://www.kalcare.com/" target="_blank">
-                        Pt. Karsa Lintas Buwana
+                        PT. Karsa Lintas Buwana
                       </Link>
                     </ElementTitle>
                     <ElementSubtitle className="vertical-timeline-element-subtitle">
@@ -211,18 +229,31 @@ const ResumeSection = ({ toggle }) => {
                     <ElementP>
                       <ElementList>
                         <ElementListItem>
-                          Designed and implemented a website to keep track of
-                          employee attendance in Indonesia’s largest
-                          pharmaceutical company, division of digital healthcare
-                        </ElementListItem>
-                        <ElementListItem>
-                          Created attendance tracking app using React,
-                          JavaScript, HTML, CSS, SQL.
+                          Designed and implemented employee attendance tracking
+                          website
                         </ElementListItem>
                         <ElementListItem>
                           Continuously communicated and presented at weekly
                           meetings with the team.
                         </ElementListItem>
+                        <ElementSkills>
+                          <ElementSkillsLogo
+                            src={require("../../images/css.svg")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/html.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/react.png")}
+                          />
+                          <ElementSkillsLogo
+                            src={require("../../images/mysql.png")}
+                          />
+                        </ElementSkills>
+                        {/* <ElementListItem>
+                          Created attendance tracking app using React,
+                          JavaScript, HTML, CSS, SQL.
+                        </ElementListItem> */}
                       </ElementList>
                     </ElementP>
                   </VerticalTimelineElement>

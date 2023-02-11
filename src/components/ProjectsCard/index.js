@@ -1,6 +1,6 @@
 import React from "react";
 import Icon1 from "../../images/CARAOKE.png";
-import Icon2 from "../../images/pe-er.svg";
+import Icon2 from "../../images/Pe-eR.png";
 import Icon3 from "../../images/CARAOKE.png";
 import Icon4 from "../../images/CARAOKE.png";
 import {
@@ -11,6 +11,7 @@ import {
   ProjectsIcon,
   ProjectsH2,
   ProjectsP,
+  ProjectsIconWrapper
 } from "./ProjectsElements";
 
 const Projects = () => {
@@ -19,24 +20,32 @@ const Projects = () => {
       <ProjectsH1>Projects</ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
-          <ProjectsIcon src={Icon1} />
+          {/* <ProjectsIconWrapper> */}
+            <ProjectsIcon src={Icon1} />
+          {/* </ProjectsIconWrapper> */}
           <ProjectsH2>Caraoke</ProjectsH2>
-          <ProjectsP>Lyrics Viewer Lorem Lyrics Viewer Lorem  Lyrics Viewer Lorem </ProjectsP>
+          <ProjectsP>Lyrics Viewer </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Icon2} />
           <ProjectsH2>Pe-er</ProjectsH2>
-          <ProjectsP>Lyrics Viewer Lorem Lyrics Viewer Lorem  Lyrics Viewer Lorem </ProjectsP>
+          <ProjectsP>
+            Lyrics Viewer Lorem Lyrics Viewer Lorem Lyrics Viewer Lorem{" "}
+          </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Icon3} />
           <ProjectsH2>Image Stitching</ProjectsH2>
-          <ProjectsP>Lyrics Viewer Lorem Lyrics Viewer Lorem  Lyrics Viewer Lorem </ProjectsP>
+          <ProjectsP>
+            Lyrics Viewer Lorem Lyrics Viewer Lorem Lyrics Viewer Lorem{" "}
+          </ProjectsP>
         </ProjectsCard>
         <ProjectsCard>
           <ProjectsIcon src={Icon4} />
           <ProjectsH2>Image Stitching</ProjectsH2>
-          <ProjectsP>Lyrics Viewer Lorem Lyrics Viewer Lorem  Lyrics Viewer Lorem </ProjectsP>
+          <ProjectsP>
+            Lyrics Viewer Lorem Lyrics Viewer Lorem Lyrics Viewer Lorem{" "}
+          </ProjectsP>
         </ProjectsCard>
       </ProjectsWrapper>
     </ProjectsContainer>

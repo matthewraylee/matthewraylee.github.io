@@ -60,9 +60,17 @@ export const ProjectsCard = styled.div`
   }
 `;
 
+export const ProjectsIconWrapper = styled.div`
+  width: 75%;
+  // height: 50%;
+  display: flex;
+  // justify-content: space-around;
+  align-content: center;
+  background-color: red;
+`;
+
 export const ProjectsIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  height: 150px;
   margin-bottom: 10px;
 
   @media screen and (max-width: 768px) {
