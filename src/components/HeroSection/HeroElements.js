@@ -1,34 +1,68 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
+const gradient = keyframes`
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+`;
+
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  heigth: 800px;
   position: relative;
   z-index: 1;
-
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.2) 0%,
-        rgba(0, 0, 0, 0.6) 100%
-      ), linear-gradient(
-        180deg, 
-        rgba(0, 0, 0, 0.2) 0%, 
-        transparent 100%);
-    z-index: 2;
-  }
+  background: linear-gradient(
+    -45deg,
+    #ff6962,
+    #ff8776,
+    #ffb092,
+    #ffe08e,
+    #ffd050,
+    #ffb346
+  );
+  background-size: 400% 400%;
+  animation: ${gradient} 15s ease infinite;
+  height: 100vh;
 `;
+
+// export const HeroContainer = styled.div`
+//   background: #0c0c0c;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 0 30px;
+//   height: 800px;
+//   position: relative;
+//   z-index: 1;
+
+//   :before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: linear-gradient(
+//         180deg,
+//         rgba(0, 0, 0, 0.2) 0%,
+//         rgba(0, 0, 0, 0.6) 100%
+//       ), linear-gradient(
+//         180deg,
+//         rgba(0, 0, 0, 0.2) 0%,
+//         transparent 100%);
+//     z-index: 2;
+//   }
+// `;
 
 export const HeroBg = styled.div`
   position: absolute;

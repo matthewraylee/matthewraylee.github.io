@@ -23,7 +23,7 @@ const HeroSection = () => {
 
   return (
     <HeroContainer id="home">
-      <HeroBg>
+      {/* <HeroBg>
         <VideoBg
           autoPlay
           loop
@@ -35,7 +35,7 @@ const HeroSection = () => {
           src={Video}
           type="video/mp4"
         />
-      </HeroBg>
+      </HeroBg> */}
       <HeroContent>
         <HeroH1>Hi, I'm Matt!</HeroH1>
         

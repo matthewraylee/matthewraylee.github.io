@@ -48,9 +48,9 @@ export const LogoImg = styled.img`
     scrollNav
       ? "invert(0%);"
       : "invert(99%) sepia(4%) saturate(663%) hue-rotate(215deg) brightness(114%) contrast(88%);"};
-  width: 90%;
+  width: 80%;
   padding-right: 0;
-  margin-top: 10px;
+  margin-top: 20px;
 `;
 
 export const MobileIcon = styled.div`

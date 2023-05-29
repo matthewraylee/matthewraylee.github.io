@@ -107,7 +107,12 @@ export const ElementSkills = styled.div`
   justify-content: flex-start;
   align-items: center;
   // width: 40%;
-  margin-top: 10px
+  padding-top: 10px;
+
+  @media screen and (max-width: 480px) {
+    max-width: 100%;
+    display: block;
+  }
 `;
 
 // export const ElementSkillsIcon = styled.a`
@@ -120,7 +125,7 @@ export const ElementSkills = styled.div`
 // `;
 
 export const ElementSkillsLogo = styled.img`
-  width: 35px;
+  width: 2rem;
   margin-right: 25px;
 `;
 
