@@ -157,7 +157,7 @@ export const PopupTitle = styled.h2`
   // margin-bottom: 10px;
 
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -166,7 +166,7 @@ export const PopupSubtitle = styled.h4`
   margin-top: 5px;
   
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 `;
 
@@ -213,18 +213,32 @@ export const PopupIconsWrapper = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   margin-top: 30px;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export const PopupIconDescription = styled.p`
   font-size: 1rem;
   line-height: 1.5;
   width: 50%;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    font-size: 0.75rem;
+  }
 `;
 
 export const PopupIcon = styled.img`
   height: 50px;
   width: 50px;
   margin-right: 25px;
+
+  @media screen and (max-width: 768px) {
+    height: 30px;
+    width: 30px;
+  }
 `;
 
 export const CloseButton = styled.button`
@@ -249,7 +263,7 @@ export const MobileClose = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     margin-bottom: 25px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     color: black;
   }

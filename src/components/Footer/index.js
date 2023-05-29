@@ -37,10 +37,10 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Matt</SocialLogo>
-            <WebsiteRights>
+            <SocialLogo to="/">Thank you for your time</SocialLogo>
+            {/* <WebsiteRights>
               Matt © {new Date().getFullYear()}
-            </WebsiteRights>
+            </WebsiteRights> */}
             <SocialIcons>
               <SocialIconLink href="https://www.github.com/matthewraylee/" target="_blank" aria-label="Github">
                 <FaGithub />

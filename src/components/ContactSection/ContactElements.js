@@ -1,40 +1,15 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
-const gradient = keyframes`
-0% {
-  background-position: 0% 50%;
-}
-50% {
-  background-position: 100% 50%;
-}
-100% {
-  background-position: 0% 50%;
-}
-`;
-
-export const InfoContainer = styled.div`
+export const ContactContainer = styled.div`
   color: white;
   background: ${({ lightBg }) => (lightBg ? "#f0f0f0" : "#01161E")};
-  // background: linear-gradient(
-  //   -45deg,
-  //   #ff6962,
-  //   #ff8776,
-  //   #ffb092,
-  //   #ffe08e,
-  //   #ffd050,
-  //   #ffb346
-  // );
-  // background-size: 400% 400%;
-  // animation: ${gradient} 15s ease infinite;
-  // height: 100vh;
-  // background: transparent;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `;
 
-export const InfoWrapper = styled.div`
+export const ContactWrapper = styled.div`
   display: grid;
   z-index: 1;
   height: 860px;
@@ -47,19 +22,18 @@ export const InfoWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     text-align: center;
+    height: 100%;
   }
 `;
 
-export const InfoRow = styled.div`
+export const ContactRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: ${({ imgStart }) =>
-    imgStart ? `'col2 col1'` : `'col1 col2'`};
+  grid-template-areas: "col1 col2";
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) =>
-      imgStart ? `'col2' 'col1'` : `'col1 col1' 'col2 col2'`};
+    grid-template-areas: "col1 col1";
   }
 `;
 
@@ -93,7 +67,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #F6AE2D;
+  color: #f6ae2d;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -127,23 +101,58 @@ export const Subtitle = styled.p`
   }
 `;
 
-export const BtnWrap = styled.div`
+export const LinkWrapper = styled.div`
   display: flex;
-  justify-content: flex-start;
-`;
-
-export const ImgWrap = styled.div`
-  max-width: 555px;
-  height: 100%;
-`;
-
-export const Img = styled.img`
-  width: 100%;
-  margin: 0 0 10px 0;
-  padding-right: 0;
-  border-radius: 25px;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
-    width: 75%;
+    flex-direction: column;
+    width: 100%;
   }
+`;
+
+export const LinkButton = styled.a`
+  border-radius: 50px;
+  background: #f6ae2d;
+  white-space: nowrap;
+  padding: 10px 22px;
+  color: #010606;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  //   margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  // justify-content: space-between;
+  //   width: 150px;
+  //   align-items: center;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background: #fff;
+    color: #010606;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 50%;
+  }
+`;
+
+export const LinkIconWrapper = styled.div`
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
 `;

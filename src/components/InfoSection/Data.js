@@ -6,18 +6,13 @@ export const about = {
   topLine: "Aspiring Software Engineer",
   headline: "Matthew Ray Lee",
   description:
-    "I was born in Jakarta, Indonesia and have been studying computer \
-    science at the University of Maryland, College Park. I want to be a \
-    software developer because it allows me to express my creativity and \
-    challenge myself with problem-solving skills to do meaningful work. \n\
-    \n\
-    In academics, I am also interested in several different topics but I chose \
-    business innovation and entrepreneurship as my minor since I am particularly \
-    interested in how companies started and achieve sustainability. Outside of \
-    academics, I am also interested in exploring all different kinds of \
-    activities which includes sports and music. When I am not studying, you can \
-    find me in the golf driving range, playing a few rounds of badminton or \
-    practicing the piano.",
+    "I'm a passionate computer science graduate with a strong drive for innovation. \
+    Throughout my academic journey, I've been fueled by my love for coding and \
+    problem-solving to do impactful work. During my time as an API Developer Intern, \
+    I had the opportunity to optimize rail transportation through updating and testing \
+    multiple APIs. I am excited to continue exploring new technologies and be part of an \
+    innovative team that makes a positive impact. Feel free to explore my projects and \
+    reach out for collaborations or exciting opportunities. ",
   buttonLabel: "Hire Me!",
   imgStart: true,
   img: require("../../images/matt_about1.jpg"),
