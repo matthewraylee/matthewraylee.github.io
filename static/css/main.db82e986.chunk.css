@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Comfortaa,sans-serif}body{background:linear-gradient(-45deg,#ff6962,#ff8776,#ffb092,#ffe08e,#ffd050,#ffb346);background-size:400% 400%;-webkit-animation:gradient 15s ease infinite;animation:gradient 15s ease infinite;height:100vh}@-webkit-keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
+/*# sourceMappingURL=main.db82e986.chunk.css.map */
