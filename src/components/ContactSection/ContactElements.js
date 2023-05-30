@@ -142,10 +142,12 @@ export const LinkButton = styled.a`
 
   @media screen and (max-width: 768px) {
     width: 50%;
+    margin-bottom: 10px;
   }
 
   @media screen and (max-width: 480px) {
     width: 50%;
+    margin-bottom: 10px;
   }
 `;
 
