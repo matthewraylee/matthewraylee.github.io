@@ -1,14 +1,14 @@
 {
   "main.css": "/static/css/main.db82e986.chunk.css",
-  "main.js": "/static/js/main.5de8b700.chunk.js",
-  "main.js.map": "/static/js/main.5de8b700.chunk.js.map",
+  "main.js": "/static/js/main.329b5df8.chunk.js",
+  "main.js.map": "/static/js/main.329b5df8.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/css/2.34fa76fd.chunk.css": "/static/css/2.34fa76fd.chunk.css",
-  "static/js/2.8ce5f1b2.chunk.js": "/static/js/2.8ce5f1b2.chunk.js",
-  "static/js/2.8ce5f1b2.chunk.js.map": "/static/js/2.8ce5f1b2.chunk.js.map",
+  "static/js/2.8d6168ae.chunk.js": "/static/js/2.8d6168ae.chunk.js",
+  "static/js/2.8d6168ae.chunk.js.map": "/static/js/2.8d6168ae.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.7bc919a3b25a0d03f70c6c19764b6d3e.js": "/precache-manifest.7bc919a3b25a0d03f70c6c19764b6d3e.js",
+  "precache-manifest.8633fe2f0905602b86183a4389688b01.js": "/precache-manifest.8633fe2f0905602b86183a4389688b01.js",
   "service-worker.js": "/service-worker.js",
   "static/css/2.34fa76fd.chunk.css.map": "/static/css/2.34fa76fd.chunk.css.map",
   "static/css/main.db82e986.chunk.css.map": "/static/css/main.db82e986.chunk.css.map",
@@ -32,6 +32,5 @@
   "static/media/postman.svg": "/static/media/postman.65245af1.svg",
   "static/media/pythonLogo.png": "/static/media/pythonLogo.d3c746b2.png",
   "static/media/pytorchlogo.png": "/static/media/pytorchlogo.682b59a5.png",
-  "static/media/swiftlogo.png": "/static/media/swiftlogo.f8016922.png",
-  "static/media/video.mp4": "/static/media/video.f34a4eee.mp4"
+  "static/media/swiftlogo.png": "/static/media/swiftlogo.f8016922.png"
 }
