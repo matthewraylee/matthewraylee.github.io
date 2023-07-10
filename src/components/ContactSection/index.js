@@ -31,7 +31,7 @@ const Contact = () => {
   //   };
 
   return (
-    <ContactContainer>
+    <ContactContainer id="contact">
       <ContactWrapper>
         <ContactRow>
           <Column1>
@@ -39,7 +39,8 @@ const Contact = () => {
               <TopLine>Hope you had a wonderful time exploring.</TopLine>
               <Heading lightText={true}>Let's Talk!</Heading>
               <Subtitle darkText={false}>
-                Seeking Full-time Opportunities 👀
+                Seeking Full-time Opportunities
+                <span role="img" aria-label="eyes"> 👀</span>
               </Subtitle>
               <LinkWrapper>
                 <LinkButton onClick={handleEmailButtonClick}>

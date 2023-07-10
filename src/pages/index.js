@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
@@ -7,7 +7,7 @@ import ResumeSection from "../components/ResumeSection";
 import ProjectsCard from "../components/ProjectsCard";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
-import { about, resume, contact } from "../components/InfoSection/Data";
+import { about } from "../components/InfoSection/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +23,7 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...about} />
       <ResumeSection />
-      {/* <InfoSection {...resume} /> */}
       <ProjectsCard />
-      {/* <InfoSection {...contact} /> */}
       <ContactSection />
       <Footer />
     </>

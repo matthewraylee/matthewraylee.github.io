@@ -1,25 +1,23 @@
-import React, { useState, useEffect, useRef } from "react";
-import Video from "../../videos/video.mp4";
-import { Button } from "../ButtonElements";
+import React from "react";
 import {
   HeroContainer,
-  HeroBg,
-  VideoBg,
+  // HeroBg,
+  // VideoBg,
   HeroContent,
   HeroH1,
   HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
+  // HeroBtnWrapper,
+  // ArrowForward,
+  // ArrowRight,
 } from "./HeroElements";
 import { Typewriter } from "react-simple-typewriter";
 
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
+  // const [hover, setHover] = useState(false);
 
-  const onHover = () => {
-    setHover(!hover);
-  };
+  // const onHover = () => {
+  //   setHover(!hover);
+  // };
 
   return (
     <HeroContainer id="home">

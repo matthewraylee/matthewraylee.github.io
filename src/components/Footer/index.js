@@ -1,24 +1,24 @@
 import React from "react";
 import {
-  FaInstagram,
+  // FaInstagram,
   FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-  FaYoutube,
+  // FaFacebook,
+  // FaTwitter,
+  // FaYoutube,
   FaGithub,
 } from "react-icons/fa";
 import {
   FooterContainer,
-  FooterLink,
+  // FooterLink,
   FooterLinkItems,
   FooterLinksContainer,
   FooterLinksWrapper,
-  FooterLinkTitle,
+  // FooterLinkTitle,
   FooterWrap,
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  WebsiteRights,
+  // WebsiteRights,
   SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
