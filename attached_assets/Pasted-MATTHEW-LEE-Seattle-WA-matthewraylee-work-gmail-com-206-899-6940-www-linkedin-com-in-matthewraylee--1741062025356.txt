@@ -1,0 +1,43 @@
+MATTHEW LEE
+Seattle, WA│matthewraylee.work@gmail.com│206-899-6940│www.linkedin.com/in/matthewraylee/
+EXECUTIVE SUMMARY         ​​​​​​​​​​​
+Machine Learning Engineer with experience in recommendation systems, cloud computing, and distributed systems. Proficient in Python, SQL, and TensorFlow, with expertise in ML model development, API deployment, and system optimization. Passionate about applying machine learning to real-world problems at scale.
+ 
+SKILLS                                                                                  ​​​​​​​
+● Languages: Python, Java, C++, SQL
+● Machine Learning & AI: Scikit-learn, TensorFlow, Pandas, NumPy, Recommender Systems
+● Cloud & DevOps: AWS (S3, Redshift, Lambda), GCP, CI/CD, Docker, Kubernetes
+● Data & Infrastructure: API Security (OAuth2.0), Distributed Systems, Data Pipelines
+● Software Engineering: Postman, React.js, Supabase, Agile Development
+ 
+WORK EXPERIENCE​​​​​​​ ​​​​​
+Redapt​​​​​​​​​​           ​​     Seattle, WA
+Data Center Technician​​​​​​​​ Nov 2023 – Apr 2024
+• Automated server provisioning in a Linux & cloud environment, reducing deployment time by 65%.
+• Troubleshot network & cloud infrastructure, resolving 90% of issues across 20+ systems weekly.
+• Implemented distributed computing optimizations, improving system performance in training pipelines.
+ 
+Amtrak​​​​​​​​​​           Washington, DC
+Software Developer Intern​​​​​​​​ Feb 2023 – May 2023
+• Developed API-driven ML infrastructure, maintaining 100+ APIs, reducing API latency by 30%.
+• Built OAuth2.0 security scripts, cutting authentication time by 50% and improving access security.
+• Designed and tested ML pipeline integrations with Postman & CI/CD, reducing debugging time by 60%.
+• Collaborated with data scientists & DevOps engineers to optimize ML deployment, improving efficiency by 25%.
+ 
+PROJECTS​​​​​​​ ​​​​​
+ML-Based Fashion Recommendation System (GenAI)​​​​​Summer 2024
+• Developed a personalized recommendation system using Python, TensorFlow, and Scikit-Learn, increasing accuracy by 30% in predicting user preferences.
+• Deployed ML model on AWS Lambda & GCP, optimizing response time and enabling scalable, cloud-based inference.
+ 
+EDUCATION           ​​​​​​​​​​​​
+University of Washington – Michael G. Foster School of Business​​​   ​    Seattle, WA
+Master of Science in Information Systems​​       ​​                                                     June 2025
+ 
+University of Maryland ​​​​​​​   ​        College Park, MD
+Bachelor of Science in Computer Science; Minor: Innovation & Entrepreneurship​​         ​           May 2023
+ 
+VOLUNTEER EXPERIENCE​​​​​​​​​​​
+Digital Aid Seattle, Back-end Developer​​​​​​  Sep 2023 – Apr 2024
+● Developed a CRM platform using React.js & Supabase, increasing data efficiency by 80%.
+● Designed relational databases in SQL, improving system performance by 100%.
+● Collaborated with frontend developers to refine UI/UX, increasing user accessibility by 100%.
